@@ -1,0 +1,26 @@
+{
+    "type": "record",
+    "name": "Users",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "USER_ID",
+            "type": "string"
+        },
+        {
+            "name": "USER_SCORE",
+            "type": "long"
+        },
+        {
+            "name": "GEO_GROUP",
+            "type": "int",
+            "categorical": true
+        },
+        {
+            "name": "LANGUAGE",
+            "type": "string",
+            "categorical": true
+        }
+    ],
+    "version": "1.0"
+}

@@ -1,0 +1,30 @@
+{
+    "type": "record",
+    "name": "Interactions",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "USER_ID",
+            "type": "string"
+        },
+        {
+            "name": "ITEM_ID",
+            "type": "string"
+        },
+        {
+            "name": "POST_LIKE",
+            "type": "int",
+            "categorical": true
+        },
+        {
+            "name": "POST_COMMENT",
+            "type": "int",
+            "categorical": true
+        },
+        {
+            "name": "TIMESTAMP",
+            "type": "long"
+        }
+    ],
+    "version": "1.0"
+}

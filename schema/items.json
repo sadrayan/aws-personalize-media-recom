@@ -1,0 +1,43 @@
+{
+    "type": "record",
+    "name": "Items",
+    "namespace": "com.amazonaws.personalize.schema",
+    "fields": [
+        {
+            "name": "ITEM_ID",
+            "type": "string"
+        },
+        {
+            "name": "CLIP_CATEGORY",
+            "type": "string",
+            "categorical": true
+        },
+        {
+            "name": "POST_FEATURED",
+            "type": "int"
+        },
+        {
+            "name": "POST_COUNTRY",
+            "type": "string",
+            "categorical": true
+        },
+        {
+            "name": "POST_LANGUAGE",
+            "type": "string",
+            "categorical": true
+        },
+        {
+            "name": "POST_SCORE",
+            "type": "float"
+        },
+        {
+            "name": "POST_SHARES",
+            "type": "int"
+        },
+        {
+            "name": "TIMESTAMP",
+            "type": "long"
+        }
+    ],
+    "version": "1.0"
+}
